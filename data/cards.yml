@@ -1,0 +1,17 @@
+brussels:
+  phrase1: Boire de la bière !
+  phrase2: fumer des joints ?
+  picture: card-brussels.jpeg
+  avatar: titi.png
+
+london:
+  phrase1: Boire de la bière !
+  phrase2: fumer des joints ?
+  picture: card-london.jpeg
+  avatar: titi.png
+
+paris:
+  phrase1: Métro sodo dodo
+  phrase2: so do mi la ré fa si la
+  picture: card-paris.jpeg
+  avatar: titi.png
