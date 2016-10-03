@@ -37,22 +37,22 @@
     <div class="container padded features">
       <div class="row text-center">
         <div class="col-xs-12 col-sm-6 col-lg-3">
-          <img src="/images/globe.png">
+          <%= image_tag "/images/globe.png", class: "" %>
           <h2>Discover the world</h2>
           <p>The earth is your new home</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
-          <img src="/images/dollar.png">
+          <%= image_tag "/images/dollar.png", class: "" %>
           <h2>Pay online</h2>
           <p>no cash issues anymore</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
-          <img src="/images/beer.png">
+          <%= image_tag "/images/beer.png", class: "" %>
           <h2>Meet people</h2>
           <p>Discover new culture and lifestyle</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3">
-          <img src="/images/heart.png">
+          <%= image_tag "/images/heart.png", class: "" %>
           <h2>Share and love</h2>
           <p>Join a community you will love</p>
         </div>
@@ -68,7 +68,6 @@
           <% data.cards.each do |city, infos| %>
             <div class="col-xs-12 col-md-4">
             <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= image_path ("images/#{infos.picture}") %>');">
-      <!--        <%= image_tag infos.picture, class: "card-city" %> -->
 
              <div class="card-description">
               <h2><%= city.capitalize %></h2>
